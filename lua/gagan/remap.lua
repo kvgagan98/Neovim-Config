@@ -15,7 +15,7 @@ vim.keymap.set("n", "<C-Left>", ":vertical resize -2<CR>")
 vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>")
 
 --File Explorer
-vim.keymap.set("n", "<leader>e", ":Lex 25<cr>")                 --Open File Explorer
+vim.keymap.set("n", "<leader>e", ":Neotree<CR>")                 --Open File Explorer
 
 --Buffer Navigation
 vim.keymap.set("n", "<S-h>", ":bprevious<CR>")               --Open File Explorer
