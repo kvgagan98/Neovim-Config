@@ -16,3 +16,7 @@ vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>")
 
 --File Explorer
 vim.keymap.set("n", "<leader>e", ":Lex 25<cr>")                 --Open File Explorer
+
+--Buffer Navigation
+vim.keymap.set("n", "<S-h>", ":bprevious<CR>")               --Open File Explorer
+vim.keymap.set("n", "<S-l>", ":bnext<CR>")                  --Open File Explorer
