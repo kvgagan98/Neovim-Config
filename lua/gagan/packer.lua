@@ -63,4 +63,6 @@ return require('packer').startup(function(use)
                     "MunifTanjim/nui.nvim",
             }
     }
+    use 'dhananjaylatkar/cscope_maps.nvim'
+    use 'folke/which-key.nvim'
 end)
