@@ -65,4 +65,5 @@ return require('packer').startup(function(use)
     }
     use 'dhananjaylatkar/cscope_maps.nvim'
     use 'folke/which-key.nvim'
+    use 'liuchengxu/vista.vim'
 end)
