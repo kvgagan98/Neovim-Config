@@ -16,9 +16,13 @@ vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>")
 
 --File Explorer
 vim.keymap.set("n", "<leader>e", ":Neotree<CR>")                 --Open File Explorer
+vim.keymap.set("n", "<leader>nc", ":NeoTreeClose<CR>")
 
 --Buffer Navigation
 vim.keymap.set("n", "<S-h>", ":bprevious<CR>")
 vim.keymap.set("n", "<S-l>", ":bnext<CR>")
 
 vim.keymap.set("n", "<C-s>", ":w<CR>")
+
+--View Buffer
+vim.keymap.set("n", "<leader>nb", ":Neotree buffers<CR>")
