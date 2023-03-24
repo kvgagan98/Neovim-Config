@@ -26,3 +26,6 @@ vim.keymap.set("n", "<C-s>", ":w<CR>")
 
 --View Buffer
 vim.keymap.set("n", "<leader>nb", ":Neotree buffers<CR>")
+
+--Vista Remap
+vim.keymap.set("n", "<C-t>", ":Vista<CR>")
