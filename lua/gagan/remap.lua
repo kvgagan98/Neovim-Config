@@ -28,10 +28,18 @@ vim.keymap.set("n", "<C-s>", ":w<CR>")
 vim.keymap.set("n", "<leader>nb", ":Neotree buffers<CR>")
 
 --Vista Remap
-vim.keymap.set("n", "<C-t>", ":Vista<CR>")
+vim.keymap.set("n", "<leader>vft", ":Vista finder<CR>")
+vim.keymap.set("n", "<leader>vt", ":Vista<CR>")
+vim.keymap.set("n", "<leader>vat", ":Vista finder!<CR>")
 
 --Moving Text
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
+
+--FzfLua Mappings
+vim.keymap.set("n", "grep", ":FzfLua grep<CR>")
+vim.keymap.set("n", "<leader>lg", ":FzfLua live_grep<CR>")
+vim.keymap.set("n", "<leader>bf", ":FzfLua buffers<CR>")
+vim.keymap.set("n", "<leader>fs", ":FzfLua files<CR>")
