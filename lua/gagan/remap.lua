@@ -29,3 +29,9 @@ vim.keymap.set("n", "<leader>nb", ":Neotree buffers<CR>")
 
 --Vista Remap
 vim.keymap.set("n", "<C-t>", ":Vista<CR>")
+
+--Moving Text
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "<", "<gv")
+vim.keymap.set("v", ">", ">gv")
