@@ -65,4 +65,5 @@ return require('packer').startup(function(use)
         -- optional for icon support
         requires = { 'nvim-tree/nvim-web-devicons' }
     }
+    use 'akinsho/toggleterm.nvim'
 end)
